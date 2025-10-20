@@ -5,7 +5,7 @@ Group A -> Group 9
 2. ITUA OSEIMUOHAN | 23/0800 | OseimuohanI(Github Username)|Task-filter.php
 4. ATU OBINNA |Task-filter.php
 5. ERHIRHIE-OROUWIGHO  OGHENEKEVWE | Task-filter.php
-6. FAKOREDE OLADAPO | Task-connection.php
+6. FAKOREDE OLADAPO |23/0755| Fakky2007(Github Username)| Task-connection.php
 7. BANJO OLAMIDE| Task-process.php
 8. AWOLAJA OLASUBOMI | 23/2020 | olasubomiawolaja(Github user name) | Task- feedback.html, feedback_portal.sql
 9. AKINNIBOSUN OLUMIDE | Task-display.php
@@ -27,3 +27,7 @@ Search Filter: Users can search feedback by first name, last name, email, or com
 Rating Filter: Users can filter feedback by selecting a specific rating (1–5).
 Average Rating Display: Dynamically calculates and displays the average rating of the filtered results.
 Secure Output: All displayed data uses htmlspecialchars() to prevent HTML injection.
+
+FAKOREDE OLADAPO 23/0755| 
+I was given the task of handling the connection.php file. The file acts as a centralised database connection script, basically it allows other PHP files to easily connect to the database without rewriting connection code. This connection.php file also ensures error handling, so the application will not silently fail if the database is not accessible.
+TLDR; it connects your application to your database so you can read/write data safely and efficiently. 
