@@ -1,14 +1,14 @@
 # webAppDev-GROUP-A-GROUP9
 Web application assignment for group A(Group 9)
 Group A -> Group 9
-1. EBAH OGHENEOGAGA
-2. ITUA OSEIMUOHAN
-3. ATU OBINNA
-4. ERHIRHIE-OROUWIGHO  OGHENEKEVWE
-5. FAKOREDE OLADAPO
-6. BANJO OLAMIDE
-7. AWOLAJA OLASUBOMI | 23/2020 | olasubomiawolaja(Github user name)
-8. AKINNIBOSUN OLUMIDE
+1. EBAH OGHENEOGAGA | Task-display.php
+2. ITUA OSEIMUOHAN | Task-filter.php
+4. ATU OBINNA |Task-filter.php
+5. ERHIRHIE-OROUWIGHO  OGHENEKEVWE | Task-filter.php
+6. FAKOREDE OLADAPO | Task-connection.php
+7. BANJO OLAMIDE| Task-process.php
+8. AWOLAJA OLASUBOMI | 23/2020 | olasubomiawolaja(Github user name) | Task- feedback.html, feedback_portal.sql
+9. AKINNIBOSUN OLUMIDE | Task-display.php
 
                 CONTRIBUTION
 
