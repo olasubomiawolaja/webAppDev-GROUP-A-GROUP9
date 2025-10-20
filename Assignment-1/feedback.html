@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Portal</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 40px 0;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      min-height: 100vh;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #fff;
+      font-weight: 400;
+      text-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+      margin-bottom: 25px;
+    }
+
+    form {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      backdrop-filter: blur(8px);
+      width: 350px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    form:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: none;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      box-shadow: 0 0 8px rgba(67, 206, 162, 0.7);
+      transform: scale(1.02);
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    input[type="submit"]:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(135deg, #5ee7df, #b490ca);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 22px;
+      text-decoration: none;
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+      color: white;
+      border-radius: 30px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    a:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(135deg, #5ee7df, #b490ca);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1><b><i>Feedback Portal</i></b></h1>
+  <h2>Submit Your Feedback</h2>
+
+  <form action="process.php" method="POST">
+    <label>First Name:</label>
+    <input type="text" name="first_name" required>
+
+    <label>Last Name:</label>
+    <input type="text" name="last_name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Rating (1–5):</label>
+    <input type="number" name="rating" min="1" max="5" required>
+
+    <label>Comments:</label>
+    <textarea name="comments" rows="4" required></textarea>
+
+    <input type="submit" value="Submit Feedback">
+  </form>
+
+  <div>
+    <!-- Link to display.php  -->
+    <a href="display.php">View All Feedback</a> |
+    <!-- Link to filter.php  -->
+    <a href="filter.php">Filter Feedback</a>
+  </div>
+
+</body>
+</html>
