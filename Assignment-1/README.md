@@ -25,6 +25,16 @@ using trim() removes whitespace and using(int) safely casts rating to an integer
 bind_param securely binds each variable to the SQL query.If the insert is successful, show a thank-you alert and redirect to display.php. If there's an error, show the SQL error for debugging.
 
 
+EBAH OGHENEOGAGA EMMANUEL 23/0813
+I created the display.php file that fetches all the records from the database feedbacks table and displays them in a well structured table format on the web page. The code connects to connection.php to establish a link between PHP and MySQL.
+If there’s any issue retrieving data, the script shows an error message and stops running to avoid further problems.
+I made the table headers and rows generate automatically using the database field names. I also used htmlspecialchars() to make sure the data is safe and secure.
+I made sure to write a query to calculate the average rating from the “rating” column, and the average rating is displayed below the table, rounded to two decimal places.
+
+And then for easy navigation i created a link using the a tag
+(feedback.html) this takes you back to the feedback submission page.
+(filter.php) opens a page to filter feedback records.
+
 
 ITUA OSEIMUOHAN 23/0800
 I worked on index.php, index.php is a fix to the issue of the Apache Web server not finding the default file
