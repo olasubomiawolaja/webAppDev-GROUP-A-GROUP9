@@ -8,7 +8,7 @@ Group A -> Group 9
 6. FAKOREDE OLADAPO |23/0755| Fakky2007(Github Username)| Task-connection.php
 7. BANJO OLAMIDE| Task-process.php
 8. AWOLAJA OLASUBOMI | 23/2020 | olasubomiawolaja(Github user name) | Task- feedback.html, feedback_portal.sql
-9. AKINNIBOSUN OLUMIDE | Task-display.php
+9. AKINNIBOSUN OLUMIDE | 23/1852 | Olumzzz (Github Username) | CSS Task-display.php
 
                 CONTRIBUTION
 
@@ -52,3 +52,5 @@ FAKOREDE OLADAPO 23/0755|
 I was given the task of handling the connection.php file. The file acts as a centralised database connection script, basically it allows other PHP files to easily connect to the database without rewriting connection code. This connection.php file also ensures error handling, so the application will not silently fail if the database is not accessible.
 TLDR; it connects your application to your database so you can read/write data safely and efficiently. 
 
+AKINNIBOSUN OLUMIDE OLUDAMILOLA | 23/1852
+I worked on the CSS of the display.php file. The CSS in display.php is written directly within the file rather than linked externally. It defines the visual styling for the page, including layout, typography, and element formatting. This inline approach simplifies deployment for smaller projects but may limit scalability and reuse compared to external stylesheets.
