@@ -6,7 +6,7 @@ Group A -> Group 9
 4. ATU OBINNA |Task-filter.php
 5. ERHIRHIE-OROUWIGHO  OGHENEKEVWE | Task-filter.php
 6. FAKOREDE OLADAPO |23/0755| Fakky2007(Github Username)| Task-connection.php
-7. BANJO OLAMIDE| Task-process.php
+7. BANJO OLAMIDE|23/1150| lammide155764(Github username) | Task-process.php
 8. AWOLAJA OLASUBOMI | 23/2020 | olasubomiawolaja(Github user name) | Task- feedback.html, feedback_portal.sql
 9. AKINNIBOSUN OLUMIDE | 23/1852 | Olumzzz (Github Username) | CSS Task-display.php
 
