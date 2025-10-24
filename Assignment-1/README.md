@@ -38,7 +38,7 @@ And then for easy navigation i created a link using the a tag
 
 ITUA OSEIMUOHAN 23/0800
 I worked on index.php, index.php is a fix to the issue of the Apache Web server not finding the default file
-I also worked on filter.php
+I also worked on filter.php and it's styles
 Purpose:
 Allows users to search and filter feedback records by keyword or rating, and view the average rating of filtered results.
 Features:
